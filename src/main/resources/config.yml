@@ -1,0 +1,7 @@
+#在这里设置允许的世界
+Worlds:
+  - world
+  - nether
+
+#调试模式，非开发人员请勿开启
+DebugMode: false
