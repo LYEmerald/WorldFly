@@ -2,6 +2,3 @@
 Worlds:
   - world
   - nether
-
-#调试模式，非开发人员请勿开启
-DebugMode: false
