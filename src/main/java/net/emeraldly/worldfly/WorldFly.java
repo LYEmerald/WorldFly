@@ -32,17 +32,10 @@ public class WorldFly extends PluginBase implements Listener {
         String pn = player.getName();
         String level = event.getPlayer().getLevel().getName();
         List<String> list = this.getConfig().getStringList("Worlds");
-        //boolean debug = this.getConfig().getBoolean("DebugMode");
         if(list.contains(level)){
             player.setAllowFlight(true);
-            //if(debug == true){
-                //player.sendMessage("Player:"+pn+" Level:"+level+" Status:True");
-            //}
         }else {
             player.setAllowFlight(false);
-            //if(debug == true){
-                //player.sendMessage("Player:"+pn+" Level:"+level+" Status:False");
-            //}
         }
     }
 }
